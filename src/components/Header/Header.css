@@ -1,0 +1,98 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #00bfff;
+  }
+  
+
+  .cart-count-badge {
+    background-color: #f44336;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
+  
+  @media (max-width: 600px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo img {
+      max-height: 40px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  
+    nav ul li {
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    nav ul {
+      flex-direction: row;
+    }
+  
+    nav ul li {
+      margin: 0 10px;
+    }
+  }
+  
+  
+  @media (min-width: 1025px) {
+    .header {
+      padding: 15px 30px;
+    }
+  
+    .logo img {
+      max-height: 60px;
+    }
+  
+    nav ul li {
+      margin: 0 20px;
+    }
+  }
+  

@@ -1,0 +1,65 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-container {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .shop-now-btn, .learn-more-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .shop-now-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .learn-more-btn {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #218838;
+  }
+  
